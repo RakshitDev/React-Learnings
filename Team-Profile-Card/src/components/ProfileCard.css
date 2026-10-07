@@ -1,0 +1,68 @@
+.card {
+  width: 260px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, sans-serif;
+}
+
+/* remove default <p> margins inside the card */
+.card p {
+  margin: 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.status-tag {
+  padding: 4px 12px;
+  border-radius: 50px;
+  background-color: #dcfce7;
+  color: #15803d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.location {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.skill {
+  padding: 4px 12px;
+  border-radius: 50px;
+  background-color: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+}
+
+.no-skills {
+  font-size: 12px;
+  color: #94a3b8;
+  font-style: italic;
+}
